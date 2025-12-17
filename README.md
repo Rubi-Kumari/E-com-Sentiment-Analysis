@@ -1,34 +1,58 @@
-# Amazon-Alexa-Reviews
+This repository contains a complete Sentiment Analysis project built using Python.
+It analyzes text data to determine whether the emotional tone of the text is positive, negative, or neutral.
+This can be useful for customer feedback analysis, product review classification, social media trends, and other text-based sentiment tasks.
+This tool demonstrates Natural Language Processing (NLP) and machine learning techniques to automatically classify text sentiment. 
 
-## Watch Video: https://www.youtube.com/watch?v=6A2w-KYG4Ko
+Project Overview
 
-## HOW TO RUN
+This project includes:
 
-Step 1: Clone the repository
-```
-git clone https://github.com/Surbhit01/Amazon-Alexa-Reviews.git
-```
+Data exploration and preprocessing
 
-Step 2: Open the cloned repository and create a conda environment. Activate the new environment
-```
-conda create -n amazonreview python=3.10
-```
-```
-conda activate amazonreview
-```
+Text cleaning and feature extraction
 
-Step 3: Install the requirements file
-```
-pip install -r requirements.txt
-```
+Machine learning model training
 
-Step 4: Run the app
-```
-flask --app api.py run
-```
+Prediction and evaluation
 
-Step 5: The app will run on port 5000. 
-```
-localhost:5000
-```
-## NOTE: The issue raised is fixed, please download the .zip folder and run it.
+ A simple web or API interface for predictions
+
+This project helps understand key NLP concepts such as tokenization, vectorization, and classifier models that form the basis of sentiment analysis systems. 
+GitHub
+
+ Repository Structure
+Sentiment-Analysis/
+├── Data/
+│   └── dataset.csv         # Example text dataset for training/testing
+├── Models/
+│   └── saved_model.pkl     # Trained model file
+├── templates/              # Web UI templates (if applicable)
+├── Data Exploration & Modelling.ipynb    # Notebook explaining exploration + modelling
+├── main.py                # Main script for training and testing
+├── api.py                 # API for serving predictions (optional)
+├── requirements.txt       # Required Python libraries
+└── README.md              # Project overview
+
+ Features
+
+✔ Load raw text data
+✔ Clean and preprocess text (lowercasing, punctuation removal)
+✔ Extract features using techniques like TF-IDF or word vectors
+✔ Train a classification model
+✔ Predict sentiment for new text
+✔ Evaluate model performance using accuracy and confusion matrix
+✔ (Optional) Serve as a simple API or web app
+
+ Technologies Used
+
+Python
+
+NLP libraries: NLTK, scikit-learn, spaCy or similar
+
+Machine Learning: Logistic Regression / Naive Bayes
+
+Visualization: Graphs for analysis
+
+Flask / FastAPI / Streamlit for UI
+
+Jupyter Notebook for data exploration
