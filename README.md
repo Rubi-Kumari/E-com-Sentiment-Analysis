@@ -35,13 +35,13 @@ Sentiment-Analysis/
 
  Features
 
-✔ Load raw text data
-✔ Clean and preprocess text (lowercasing, punctuation removal)
-✔ Extract features using techniques like TF-IDF or word vectors
-✔ Train a classification model
-✔ Predict sentiment for new text
-✔ Evaluate model performance using accuracy and confusion matrix
-✔ (Optional) Serve as a simple API or web app
+Load raw text data
+Clean and preprocess text (lowercasing, punctuation removal)
+Extract features using techniques like TF-IDF or word vectors
+ Train a classification model
+ Predict sentiment for new text
+ Evaluate model performance using accuracy and confusion matrix
+Serve as a simple API or web app
 
  Technologies Used
 
